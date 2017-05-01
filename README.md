@@ -7,6 +7,8 @@ For text only.
 
 This is nice to put in your profile on earlier versions of Windows if you work on the computer a lot.
 
+For other ways, see https://github.com/gangstanthony/PowerShell/blob/master/Get-Clipboard.ps1
+
 ```powershell
 function Get-Clip {
     param([Switch] $Raw)
