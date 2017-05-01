@@ -1,5 +1,7 @@
 # Get-Clip
-A basic Get-ClipBoard function (paste clipboard into console) that's compatible with PowerShell version 2.
+A basic Get-ClipBoard function for pasting clipboard content into the console (or assign to variable, process in a foreach, Set-Content to a file, etc.).
+
+It's compatible with PowerShell version 1, 2, 3 and 4. In v5+ you have Get/Set-ClipBoard from the PowerShell team built in.
 
 For text only.
 
