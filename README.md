@@ -5,6 +5,8 @@ It's compatible with PowerShell version 1, 2, 3 and 4. In v5+ you have Get/Set-C
 
 For text only.
 
+This is nice to put in your profile on earlier versions of Windows if you work on the computer a lot.
+
 ```powershell
 function Get-Clip {
     param([Switch] $Raw)
