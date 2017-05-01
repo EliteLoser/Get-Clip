@@ -51,6 +51,14 @@ PS C:\>
 With -Raw you get a single string back.
 
 ```powershell
+> Get-Clip -Raw
+Line1
+Line2
+Line3
+Line4
+Line5
+
+
 > (Get-Clip -Raw).Count
 1
 
