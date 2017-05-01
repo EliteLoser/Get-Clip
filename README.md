@@ -21,7 +21,7 @@ function Get-Clip {
 }
 ```
 
-Example use. You always get an array returned, unless you specify -Raw, sort of like Get-Content post-PSv3.
+Example use. You always get an array returned, unless you specify -Raw, sort of like Get-Content post-PSv2.
 
 ```
 PS C:\> Get-Clip
