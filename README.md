@@ -1,6 +1,8 @@
 # Get-Clip
 A basic Get-ClipBoard function (paste clipboard into console) that's compatible with PowerShell version 2.
 
+For text only.
+
 ```powershell
 function Get-Clip {
     param([Switch] $Raw)
