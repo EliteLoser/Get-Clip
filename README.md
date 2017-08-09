@@ -9,7 +9,7 @@ This is nice to put in your profile on earlier versions of Windows if you work o
 
 For other ways, see https://github.com/gangstanthony/PowerShell/blob/master/Get-Clipboard.ps1
 
-If you need something for PSv1, use copy this code block containing the first version I uploaded:
+If you need something for PSv1, copy this code block containing the first version I uploaded:
 
 ```powershell
 function Get-Clip {
