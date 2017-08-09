@@ -17,13 +17,13 @@ function Get-Clip {
     else {
         # Return array split on newlines and filter if switches were passed.
         if ($RemoveEmpty) {
-            @($TextBox.Text -split '\r?\n') | Where-Object { $_ } | ForEach-Object { if ($Quote) { $QuoteChar + $_ + $QuoteChar } else { $_ } }
+            @($TextBox.Text -split '\r?\n' | Where-Object { $_ } | ForEach-Object { if ($Quote) { $QuoteChar + $_ + $QuoteChar } else { $_ } })
         }
         elseif ($RemoveWhitespaceOnly) {
-            @($TextBox.Text -split '\r?\n') | Where-Object { $_ -match '\S' } | ForEach-Object { if ($Quote) { $QuoteChar + $_ + $QuoteChar } else { $_ }  }
+            @($TextBox.Text -split '\r?\n' | Where-Object { $_ -match '\S' } | ForEach-Object { if ($Quote) { $QuoteChar + $_ + $QuoteChar } else { $_ }  })
         }
         else {
-            @($TextBox.Text -split '\r?\n') | ForEach-Object { if ($Quote) { $QuoteChar + $_ + $QuoteChar } else { $_ } }
+            @($TextBox.Text -split '\r?\n' | ForEach-Object { if ($Quote) { $QuoteChar + $_ + $QuoteChar } else { $_ } })
         }
     }
     $TextBox.Dispose()
