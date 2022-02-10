@@ -82,17 +82,6 @@ System.Object[]
 
 Below the behaviour of all the parameters is shown in examples. -RemoveEmpty, -RemoveWhitespaceOnly, -Quote and -QuoteChar. This is a bit more like an implementation I would want myself of a Get-ClipBoard cmdlet/function after some light consideration.
 
-PowerShell celebrities like Don Jones endorse "a tool does one thing", which is fine for many purposes, but honestly I think I currently disagree in a shitload of cases.
-
-A lot of the time it just causes people to cumbersomely have to possibly research on the web, and in any case write often tedious, repetitive-task-like, "boring" code and also accidentally reinvent the wheel a billion times per month, and often poorly if it's a beginner. A handy parameter that takes care of some dirty work and saves you a Where-Object and ForEach-Object chain, or whatever, is useful, in my opinion.
-
-If the toolset is complete, Don's mindset works, but it is far from it, and will remain this way for my lifetime, possibly eternally (have to give that some more thought, and the answer is likely hidden behind infinity or a paradox, depending on math/human language). 
-
-In isolated, smaller (small can be large - heh) systems the design with "a tool does one thing" can be implemented as Don wishes, and I agree it's probably a good tactic in projects. There is always a balance, though. It is a valid argument Don makes, but I think it is disproportionately portrayed in the free PowerShell book text I read parts of some months ago (and have not re-read now, pardon any  potential misconception). When someone googles a tool to do something, if it also has bells and whistles that are simple to understand and use, I do not see that as a bad thing. Again I mention the balance - don't overdo it.
-
-Just my nickle on that at this time of writing. Letting it out on GitHub in the Get-Clip doc for lack of a better place. lol
-
-So that thinking is why I have now added these fabulous, horrific parameters for the new Get-Clip I uploaded. It's simply sometimes less typing, meaning less work then and there. I don't mean to "start a fight", by the way. :)
 
 ```powershell
 PS C:\Dropbox\PowerShell> . .\Get-Clip.ps1
