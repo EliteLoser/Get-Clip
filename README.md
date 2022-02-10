@@ -168,3 +168,4 @@ PS C:\Dropbox\PowerShell> Get-Clip -RemoveWhitespaceOnly
 
 PS C:\Dropbox\PowerShell> 
 ```
+
